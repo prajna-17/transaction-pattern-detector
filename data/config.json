@@ -1,0 +1,8 @@
+{
+  "reporting_threshold": 50000,
+  "rolling_window_hours": 72,
+  "min_transaction_count": 3,
+  "rapid_pass_through_window_hours": 72,
+  "rapid_pass_through_min_outflow_ratio": 0.8,
+  "notes": "Structuring = multiple credit transactions from/to the same account, each individually below reporting_threshold, within a rolling_window_hours window, summing to more than reporting_threshold, with at least min_transaction_count transactions."
+}
